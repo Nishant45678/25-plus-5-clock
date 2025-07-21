@@ -1,0 +1,17 @@
+.timer-wrapper{
+  font-size: 2.7rem;
+  border : 1px solid var(--white);
+  padding: 0.6em;
+  border-radius: 10px;
+  margin: 0.5em;
+}
+
+.control-icon{
+  width: 32px;
+  height: 32px;
+  background-color: inherit;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: 1em;
+}

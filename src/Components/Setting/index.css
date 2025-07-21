@@ -1,0 +1,19 @@
+.setting{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.setting-icon{
+  color: oklch(from var(--base-color) calc(l * 2 ) c h);
+  width: 20px;
+  height: 20px;
+  margin: 0 0.3em;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
