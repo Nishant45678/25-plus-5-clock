@@ -30,13 +30,13 @@ export default class Timer extends Component {
           >
             <img
               src={
-                !isRunning ? "/play-solid.svg" : "/stop-solid.svg"
+                !isRunning ? "play-solid.svg" : "stop-solid.svg"
               }
               alt={!isRunning ? "play" : "pause"}
             />
           </button>
           <button className="control-icon" data-category="reset" id="reset">
-            <img src="/rotate-left-solid.svg" alt="reset" />
+            <img src="rotate-left-solid.svg" alt="reset" />
           </button>
         </div>
         <audio
